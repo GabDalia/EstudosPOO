@@ -30,7 +30,7 @@ public class GatoTeste {
 		gato3.idade = 16;
 		gato3.vivo = false;
 		
-		System.out.println(gato1.nome); //sempre vou ter q ficar fazendo separado o print?
+		System.out.println(gato1.nome); 
 		System.out.println(gato1.cor);
 		System.out.println(gato1.idade);
 		System.out.println(gato1.vivo);
@@ -49,7 +49,7 @@ public class GatoTeste {
 	}
 	
 
-	public static class Gato {
+	public static class Gato {//perguntar pro gustavo
 		String nome;
 		String cor;
 		int idade;
